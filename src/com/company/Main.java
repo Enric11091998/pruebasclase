@@ -9,6 +9,7 @@ public class Main {
         Person david = new Person();
 
         Person alex = new Person("Alex", "Lopez", 25, true, new Car ("Jaguar", 1966));
+        alex.dogs.add(new Dog("Pipo"));
         alex.printPerson();
 
         Car citroen = new Car ("Citroen Picassa", 2010);

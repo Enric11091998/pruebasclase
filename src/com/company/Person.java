@@ -29,6 +29,9 @@ public class Person {
         this.vegan = vegan;
 
     }
+    public Person (ArrayList<Dog> dogs) {
+        this.dogs = dogs;
+    }
 
     //methods non-static
     public boolean idAdult (){
